@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html len="en">
+    <head>
+        <title>Java Script</title>
+    </head>
+    <body>
+        <h1>Namaste &#128512; javaScript.</h1>
+        <h2>Bubbling and Capturing Trricaling</h2>
+        <h3>W3 made very standard</h3>
+        <h2>Bubbling</h2>
+        <h4>When we click on child method then first onclickChild() -> onClickParent() -> onclickgrandParent()</h4>
+        <h4>It go out to the from (in to out approch) child->parent onclickChild() -> onClickParent() -> onclickgrandParent()</h4>
+        <h4>buble alway come out</h4>
+        <h4>addEventListener("click", childClicked, false) then it is bubling out</h4>
+        <div id="#grandparent" style="padding: 20px; background-color: aqua; border-style:dashed;">
+            <p>grand parent</p>
+            <div id="#parent" style="padding: 20px; background-color:antiquewhite; border-style:dashed;">
+                <p>parent</p>
+                    <div id="#child" style="padding: 20px; background-color:cadetblue; border-style:dashed;">
+                        <p>child</p>
+                    </div>
+            </div>
+        </div>
+        <h3>Capturing [Trricaling]</h3>
+        <h4>Event caturing we can go top to down approch when we click on child onclickgrandParent()->onClickParent() ->onclickChild() -></h4>
+        <h4>It go (out to in approch) parent->child onclickgrandParent()->onClickParent() ->onclickChild() -></h4>
+        <h4>Capturing always come in</h4>
+        <script src="js/index.js"></script>
+    </body>
+</html>

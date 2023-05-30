@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html len="en">
+    <head>
+        <title>Java Script</title>
+    </head>
+    <body>
+        <h1>Namaste &#128512; javaScript.</h1>
+        <h2>Event Delegation</h2>
+        <h3>How event propogate in dom tree is we can say that is event delegation</h3>
+        <h2>event delegation is base on event Bubbling</h2>
+        <h4>genrally in our page ther are lot of event are added as per our developemet requirement as</br>
+            application grows there are lot's of event is added on application all event are hanging </br>
+            around the we page it is very high about perfomus bottel neck for the application</h4>
+        <h4>For example - we haveing e-commers web site we are having laptope, headphone, cammera , mobile</br> 
+            this kind of tab and we are attaching event to each tab and rediecting to with repective page </h4>
+        <h4>In this case we should add the event to parent div</h4>
+        <h1>Limitation</h1>
+        <h4>- all the event not get prapogate bubbling blur,focus,resizing of windows</h4>
+        <h4>- in this scnario we should not use stopPrapogation</h4>
+        <div>
+            <ul id="category">
+                <li id="laptop">laptop</li>
+                <li id="headphone">headphone</li>
+                <li id="cammera">cammera</li>
+                <li id="mobile">mobile</li>
+            </ul>
+        </div>
+        <div>
+            <form action="" id="from">
+                <div>
+                    <input type="text" id="name" data-uppercase>
+                </div>
+                <div>
+                    <input type="text" id="phone">
+                </div>
+                <div>
+                    <input type="text" id="Pan">
+                </div>
+            </form>
+        </div>
+        <script src="js/index.js"></script>
+    </body>
+</html>
