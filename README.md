@@ -1,2 +1,2 @@
-# JavaScript_Core_Consept_Must_Know
+# JavaScript_Core_Concept_Must_Know
 All JavaScript Concept explain by Akshay Saini 
